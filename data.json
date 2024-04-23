@@ -1,0 +1,36 @@
+{
+  "chains": [
+    {
+      "chainId": 1,
+      "name": "Ethereum",
+      "nativeToken": {
+        "symbol": "ETH",
+        "name": "Ether"
+      }
+    },
+    {
+      "chainId": 37337,
+      "name": "Hardhat",
+      "nativeToken": {
+        "symbol": "ETH",
+        "name": "Ether"
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "addresses": {
+        "1": "0x1"
+      }
+    },
+    {
+      "symbol": "USDT",
+      "name": "USD Tether",
+      "addresses": {
+        "1": "0x2"
+      }
+    }
+  ]
+}

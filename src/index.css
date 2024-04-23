@@ -1,0 +1,28 @@
+@layer _base, _components;
+
+@import 'tailwindcss/base' layer(_base);
+@import 'tailwindcss/components' layer(_components);
+@import 'tailwindcss/utilities';
+
+@layer _base {
+  :root {
+    --placeholder-opacity: 0.3;
+    /* z-indices */
+    --z-header: 10;
+    --z-modal: 20;
+  }
+
+  body {
+    background: center / cover url('./assets/images/bg-1920.jpg');
+    position: relative;
+    overflow-x: hidden;
+    user-select: none;
+  }
+
+  :focus-visible {
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: currentColor;
+    outline-offset: 2px;
+  }
+}
